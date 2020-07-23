@@ -1,0 +1,62 @@
+.wallpaper{
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../../assets/background.jpg");
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.images{
+  border-radius: 50%;
+}
+.sidelist{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #155724;
+  position: absolute;
+  top : 400px;
+  left : 50px;
+}
+.maindesc{
+  width: 1000px;
+  height: 1000px;
+  border-radius: 10px;
+  background-color: #155724;
+  position: absolute;
+  top : 400px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+.subdesc{
+  width: 900px;
+  background-color: #212121;
+  border-radius: 10px;
+  color: white;
+}
+
+.mat-button.mat-success,
+.mat-stroked-button.mat-success {
+    color: #212121;
+}
+.mat-button.mat-success:hover,
+.mat-stroked-button.mat-success:hover {
+  background-color: #f0fff3;
+}
+
+.mat-raised-button.mat-success,
+.mat-flat-button.mat-success,
+.mat-fab.mat-success,
+.mat-mini-fab.mat-success {
+  color: #f0fff3;
+  background-color: #212121;
+}
+
+.mat-icon-button.mat-success {
+  color:#212121;
+}
